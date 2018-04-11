@@ -1,0 +1,236 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#parent{
+    width: 100%;
+}
+#child_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 58px;
+}
+.subchild{
+    width: 20%;
+    margin-left: 61px;
+}
+.subChild_2{
+    margin-right: 61px;
+}
+/***********************************cros btn***************************/
+.subChild_2 .menu-btn{
+    position: absolute;
+    right: 183px;
+    width: 40px;
+    border: transparent;
+   background-color: transparent;
+   top: 27px;
+   left: 1192px;
+   
+}
+input[value="show-menu"]{
+    position: absolute;
+    right: 179px;
+    width: 41px;
+    top: 11px;
+    left: 1192px;
+    height: 38px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+.subChild_2 .line{
+    display: block;
+    width: 25px;
+    border: 2px solid black;
+    margin-bottom: 2px;
+}
+.subChild_2 .line:first-child {
+    transform: rotate(126deg) translateY(5px);
+}
+.subChild_2 .line:last-child{
+    transform: rotate(64deg) translateX(-10px);
+}
+
+
+/************************************cross btn end************/
+#login_div{
+    width: 100%;
+    /* background-color: chartreuse; */
+    height: 150px;
+    position: absolute;
+    top: 46px;
+}
+.child_login{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.child_login p{
+    font-size: 48px;
+}
+.span_1{
+     position: absolute;
+    top: 105px;
+    font-size: 20px;
+    left: 562px;
+}
+.span_2{
+    position: absolute;
+    color: aqua;
+    top: 105px;
+    font-size: 20px;
+    left: 674px;
+}
+#main_portion{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 205px;
+}
+#main_container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main_left{
+    width: 45%;
+
+}
+.email{
+    width: 25%;
+    height: 41px;
+    position: absolute;
+    top: 57px;
+    z-index: 10;
+    font-size: 22px;
+    transition: 1s;
+}
+.email_div{
+    width: 25%;
+    height: 30px;
+    position: absolute;
+    top: 28px;
+    z-index: 10;
+    transition: 1s;
+}
+#first_input{
+    width: 25%;
+    height: 42px;
+    position: absolute;
+    top: 57px;
+    border: transparent;
+    border-bottom: 0.5px solid grey; 
+}
+.password{
+    position: absolute;
+    z-index:1;
+    width:25%;
+    height:42px;
+    top: 159px;
+    transition: 1s;
+    font-size: 22px;
+}
+.pass_div{
+    position: absolute;
+    z-index:1;
+    width:25%;
+    height:30px;
+    top: 138px;
+    transition: 1s;
+    
+}
+#second_input{
+    width: 25%;
+    height: 42px;
+    position: absolute;
+    top: 159px;
+    border: transparent;
+    border-bottom: 0.5px solid grey; 
+}
+.main_right{
+    width: 45%;
+    height: 100px;
+}
+.span_3{
+    border: 1px solid silver;
+    height: 278px;
+}
+#facebook{
+    width: 25%;
+    height: 54px;
+    position: absolute;
+    top: 71px;
+}
+#btn{
+    width: 11%;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 254px;
+}
+#btn:hover{
+    background-color: #4EADF8;
+}
+#google{
+    width: 25%;
+    height: 54px;
+    position: absolute;
+    top: 142px; 
+}
+.span_4{
+    width: 25%;
+    height: 54px;
+    position: absolute;
+    border: 1px solid darkblue;
+    border-right: transparent;
+}
+.span_4 i{
+    font-size: 31px;
+     color: darkblue;  
+     position: absolute;
+    left: 30px;
+    top: 10px; 
+    
+}
+.span_5{
+    width: 75%;
+    height: 54px;
+    background-color: #474A99;
+    position: absolute;
+    left: 82px;
+}
+.span_5 p{
+    color: white;
+    text-align: center;
+    margin: 16px 0px;
+}
+.span_6{
+    width: 25%;
+    height: 54px;
+    position: absolute;
+    border: 1px solid darkslateblue;
+    border-right: transparent;
+}
+.span_6 i{
+    color: darkslateblue;
+    position: absolute;
+    left: 30px;
+    top: 10px; 
+    font-size: 31px;
+}
+.span_7{
+    width: 75%;
+    height: 54px;
+    background-color: #5C64F8;
+    position: absolute;
+    left: 82px;
+}
+.span_7 p{
+    color: white;
+    text-align: center;
+    margin :16px 0px;
+}
